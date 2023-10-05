@@ -1,0 +1,25 @@
+.slide {
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.slide__title {
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.slide__img {
+    border-radius: 10px;
+}
+
+.slide__desc {
+    text-align: justify;
+
+    font-size: 18px;
+}

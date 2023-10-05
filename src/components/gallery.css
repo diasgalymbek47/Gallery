@@ -1,0 +1,23 @@
+.gallery {
+    padding: 20px 0;
+}
+
+.gallery__wrapper {
+    margin: 0 auto;
+
+    width: 500px;
+    height: 568px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gallery__buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.gallery__button {
+    cursor: pointer;
+}
